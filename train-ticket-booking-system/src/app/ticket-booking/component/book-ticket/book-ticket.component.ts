@@ -27,7 +27,7 @@ export class BookTicketComponent implements OnInit {
 
   public ngOnInit(): void {
     this.bookingInfo = mockResponse;
-    this.availablseats = this.getAvailablseats();
+    this.availablseats = this.getAvailablSeats();
     this.bookTicketService.get().subscribe(data => {
       this.res = data;
     });
@@ -56,7 +56,7 @@ export class BookTicketComponent implements OnInit {
     this.error = '';
   }
 
-  private getAvailablseats(): SeatInfo[] {
+  private getAvailablSeats(): SeatInfo[] {
     let availablseats: SeatInfo[] = []
     this.bookingInfo.seats.forEach(seat => {
       if (seat.status === 'available') {
@@ -69,6 +69,10 @@ export class BookTicketComponent implements OnInit {
   private checkInCategorys(name: string, count: number): void {
     let category2: SeatInfo[] = [];
     let category3: SeatInfo[] = [];
+    let category4: SeatInfo[] = [];
+    let category5: SeatInfo[] = [];
+    let category6: SeatInfo[] = [];
+    let category7: SeatInfo[] = [];
     if (count === 1) {
       category2 = this.checkInCategory(count, 2);
       if (category2.length !== 0) {
@@ -98,7 +102,36 @@ export class BookTicketComponent implements OnInit {
         } else {
           this.bookSeat(this.getRandomSeats(count), name);
         }
-    } else {
+    }else if(count === 4){
+      category4 = this.checkInCategory(count, 4);
+        if (category4.length !== 0) {
+          this.bookSeat(category4, name);
+        } else {
+          this.bookSeat(this.getRandomSeats(count), name);
+        }
+    }else if(count === 5){
+      category5 = this.checkInCategory(count, 5);
+        if (category5.length !== 0) {
+          this.bookSeat(category5, name);
+        } else {
+          this.bookSeat(this.getRandomSeats(count), name);
+        }
+    }else if(count === 6){
+      category6 = this.checkInCategory(count, 6);
+        if (category6.length !== 0) {
+          this.bookSeat(category6, name);
+        } else {
+          this.bookSeat(this.getRandomSeats(count), name);
+        }
+    }else if(count === 7){
+      category7 = this.checkInCategory(count, 7);
+        if (category7.length !== 0) {
+          this.bookSeat(category7, name);
+        } else {
+          this.bookSeat(this.getRandomSeats(count), name);
+        }
+    }
+    else {
         this.bookSeat(this.getRandomSeats(count), name);
     }
   }
@@ -110,7 +143,7 @@ export class BookTicketComponent implements OnInit {
       this.bookingInfo.seats[index].bookedBy = name;
     });
 
-    this.availablseats = this.getAvailablseats();
+    this.availablseats = this.getAvailablSeats();
 
     this.flag = true;
   }

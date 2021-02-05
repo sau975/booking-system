@@ -23,9 +23,6 @@
   <div style="text-align: center;">
     <button class="btn btn-primary" (click)="openBookingForm()">New Booking</button>
   </div> <br/>
-  <!-- <div style="text-align: center;">
-    <label>Booked: Red, Available: Green</label>
-  </div> -->
   <div class="seat-row">
     <div  *ngFor ="let seat of bookingInfo.seats">
       <div  class="seat" [ngClass] = "seat.seatNo === 2? 'divide-category': ''"  *ngIf="seat.row === 1" >

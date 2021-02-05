@@ -20,7 +20,7 @@ export const mockResponse: IBookTicket = {
     {
 			seatNo: 1,
 			status: "booked",
-			category: 2,
+			category: 1,
 			bookedBy: "xyz",
 			gender: "",
 			row: 1
@@ -28,7 +28,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 2,
       status: "booked",
-      category: 2,
+      category: 1,
       bookedBy: "xyz",
       gender: "",
       row: 1
@@ -36,7 +36,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 3,
       status: "booked",
-      category: 2,
+      category: 1,
       bookedBy: "",
       gender: "",
       row: 1
@@ -44,7 +44,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 4,
       status: "available",
-      category: 2,
+      category: 1,
       bookedBy: "",
       gender: "",
       row: 1
@@ -52,7 +52,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 5,
       status: "available",
-      category: 2,
+      category: 1,
       bookedBy: "",
       gender: "",
       row: 1
@@ -60,7 +60,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 6,
       status: "available",
-      category: 2,
+      category: 1,
       bookedBy: "",
       gender: "",
       row: 1
@@ -68,7 +68,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 7,
       status: "available",
-      category: 2,
+      category: 1,
       bookedBy: "",
       gender: "",
       row: 1
@@ -92,7 +92,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 10,
       status: "available",
-      category: 3,
+      category: 2,
       bookedBy: "",
       gender: "",
       row: 2
@@ -100,7 +100,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 11,
       status: "available",
-      category: 3,
+      category: 2,
       bookedBy: "",
       gender: "",
       row: 2
@@ -108,7 +108,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 12,
       status: "available",
-      category: 3,
+      category: 2,
       bookedBy: "",
       gender: "",
       row: 2
@@ -116,7 +116,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 13,
       status: "available",
-      category: 3,
+      category: 2,
       bookedBy: "",
       gender: "",
       row: 2
@@ -124,7 +124,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 14,
       status: "available",
-      category: 3,
+      category: 2,
       bookedBy: "",
       gender: "",
       row: 2
@@ -132,7 +132,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 15,
       status: "available",
-      category: 2,
+      category: 4,
       bookedBy: "",
       gender: "",
       row: 3
@@ -140,7 +140,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 16,
       status: "available",
-      category: 2,
+      category: 4,
       bookedBy: "",
       gender: "",
       row: 3
@@ -148,7 +148,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 17,
       status: "available",
-      category: 3,
+      category: 4,
       bookedBy: "",
       gender: "",
       row: 3
@@ -156,7 +156,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 18,
       status: "available",
-      category: 3,
+      category: 4,
       bookedBy: "",
       gender: "",
       row: 3
@@ -164,7 +164,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 19,
       status: "available",
-      category: 3,
+      category: 4,
       bookedBy: "",
       gender: "",
       row: 3
@@ -172,7 +172,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 20,
       status: "available",
-      category: 3,
+      category: 4,
       bookedBy: "",
       gender: "",
       row: 3
@@ -180,7 +180,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 21,
       status: "available",
-      category: 3,
+      category: 4,
       bookedBy: "",
       gender: "",
       row: 3
@@ -188,7 +188,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 22,
       status: "available",
-      category: 2,
+      category: 5,
       bookedBy: "",
       gender: "",
       row: 4
@@ -196,7 +196,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 23,
       status: "available",
-      category: 2,
+      category: 5,
       bookedBy: "",
       gender: "",
       row: 4
@@ -204,7 +204,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 24,
       status: "available",
-      category: 3,
+      category: 5,
       bookedBy: "",
       gender: "",
       row: 4
@@ -212,7 +212,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 25,
       status: "available",
-      category: 3,
+      category: 5,
       bookedBy: "",
       gender: "",
       row: 4
@@ -220,7 +220,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 26,
       status: "available",
-      category: 3,
+      category: 5,
       bookedBy: "",
       gender: "",
       row: 4
@@ -228,7 +228,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 27,
       status: "available",
-      category: 3,
+      category: 5,
       bookedBy: "",
       gender: "",
       row: 4
@@ -236,7 +236,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 28,
       status: "available",
-      category: 3,
+      category: 5,
       bookedBy: "",
       gender: "",
       row: 4
@@ -244,7 +244,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 29,
       status: "available",
-      category: 2,
+      category: 3,
       bookedBy: "",
       gender: "",
       row: 5
@@ -252,7 +252,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 30,
       status: "available",
-      category: 2,
+      category: 3,
       bookedBy: "",
       gender: "",
       row: 5
@@ -300,7 +300,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 36,
       status: "available",
-      category: 2,
+      category: 6,
       bookedBy: "",
       gender: "",
       row: 6
@@ -308,7 +308,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 37,
       status: "available",
-      category: 2,
+      category: 6,
       bookedBy: "",
       gender: "",
       row: 6
@@ -316,7 +316,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 38,
       status: "available",
-      category: 3,
+      category: 6,
       bookedBy: "",
       gender: "",
       row: 6
@@ -324,7 +324,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 39,
       status: "available",
-      category: 3,
+      category: 6,
       bookedBy: "",
       gender: "",
       row: 6
@@ -332,7 +332,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 40,
       status: "available",
-      category: 3,
+      category: 6,
       bookedBy: "",
       gender: "",
       row: 6
@@ -340,7 +340,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 41,
       status: "available",
-      category: 3,
+      category: 6,
       bookedBy: "",
       gender: "",
       row: 6
@@ -348,7 +348,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 42,
       status: "available",
-      category: 3,
+      category: 6,
       bookedBy: "",
       gender: "",
       row: 6
@@ -356,7 +356,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 43,
       status: "available",
-      category: 3,
+      category: 7,
       bookedBy: "",
       gender: "",
       row: 7
@@ -364,7 +364,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 44,
       status: "available",
-      category: 3,
+      category: 7,
       bookedBy: "",
       gender: "",
       row: 7
@@ -372,7 +372,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 45,
       status: "available",
-      category: 3,
+      category: 7,
       bookedBy: "",
       gender: "",
       row: 7
@@ -380,7 +380,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 46,
       status: "available",
-      category: 3,
+      category: 7,
       bookedBy: "",
       gender: "",
       row: 7
@@ -388,7 +388,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 47,
       status: "available",
-      category: 3,
+      category: 7,
       bookedBy: "",
       gender: "",
       row: 7
@@ -396,7 +396,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 48,
       status: "available",
-      category: 3,
+      category: 7,
       bookedBy: "",
       gender: "",
       row: 7
@@ -404,7 +404,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 49,
       status: "available",
-      category: 3,
+      category: 7,
       bookedBy: "",
       gender: "",
       row: 7
@@ -412,7 +412,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 50,
       status: "available",
-      category: 3,
+      category: 1,
       bookedBy: "",
       gender: "",
       row: 8
@@ -420,7 +420,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 51,
       status: "available",
-      category: 3,
+      category: 2,
       bookedBy: "",
       gender: "",
       row: 8
@@ -428,7 +428,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 52,
       status: "available",
-      category: 3,
+      category: 2,
       bookedBy: "",
       gender: "",
       row: 8
@@ -468,7 +468,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 57,
       status: "available",
-      category: 3,
+      category: 7,
       bookedBy: "",
       gender: "",
       row: 9
@@ -476,7 +476,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 58,
       status: "available",
-      category: 3,
+      category: 7,
       bookedBy: "",
       gender: "",
       row: 9
@@ -484,7 +484,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 59,
       status: "available",
-      category: 3,
+      category: 7,
       bookedBy: "",
       gender: "",
       row: 9
@@ -492,7 +492,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 60,
       status: "available",
-      category: 3,
+      category: 7,
       bookedBy: "",
       gender: "",
       row: 9
@@ -500,7 +500,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 61,
       status: "available",
-      category: 3,
+      category: 7,
       bookedBy: "",
       gender: "",
       row: 9
@@ -508,7 +508,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 62,
       status: "available",
-      category: 3,
+      category: 7,
       bookedBy: "",
       gender: "",
       row: 9
@@ -516,7 +516,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 63,
       status: "available",
-      category: 3,
+      category: 7,
       bookedBy: "",
       gender: "",
       row: 9
@@ -524,7 +524,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 64,
       status: "available",
-      category: 3,
+      category: 1,
       bookedBy: "",
       gender: "",
       row: 10
@@ -532,7 +532,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 65,
       status: "available",
-      category: 3,
+      category: 6,
       bookedBy: "",
       gender: "",
       row: 10
@@ -540,7 +540,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 66,
       status: "available",
-      category: 3,
+      category: 6,
       bookedBy: "",
       gender: "",
       row: 10
@@ -548,7 +548,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 67,
       status: "available",
-      category: 3,
+      category: 6,
       bookedBy: "",
       gender: "",
       row: 10
@@ -556,7 +556,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 68,
       status: "available",
-      category: 3,
+      category: 6,
       bookedBy: "",
       gender: "",
       row: 10
@@ -564,7 +564,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 69,
       status: "available",
-      category: 3,
+      category: 6,
       bookedBy: "",
       gender: "",
       row: 10
@@ -572,7 +572,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 70,
       status: "available",
-      category: 3,
+      category: 6,
       bookedBy: "",
       gender: "",
       row: 10
@@ -580,7 +580,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 71,
       status: "available",
-      category: 3,
+      category: 4,
       bookedBy: "",
       gender: "",
       row: 11
@@ -588,7 +588,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 72,
       status: "available",
-      category: 3,
+      category: 4,
       bookedBy: "",
       gender: "",
       row: 11
@@ -596,7 +596,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 73,
       status: "available",
-      category: 3,
+      category: 4,
       bookedBy: "",
       gender: "",
       row: 11
@@ -604,7 +604,7 @@ export const mockResponse: IBookTicket = {
     {
       seatNo: 74,
       status: "available",
-      category: 3,
+      category: 4,
       bookedBy: "",
       gender: "",
       row: 11
